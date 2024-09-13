@@ -1,0 +1,30 @@
+# config.yaml
+
+reddit:
+  client_id: "BNqHiJ2n7qMKbYthnCIKA"
+  client_secret: "PlUKpiDND5g7LEb2z5chjs2tr8RqJw"
+  user_agent: "scrap_for_science"
+  ticker: "AAPL" 
+  subreddit_list:
+    - "wallstreetbets"
+    - "investing"
+    - "cryptocurrency"
+    - "stocks"
+    - "pennystocks"
+    - "options"
+    - "personalfinance"
+    - "stockmarket"
+    - "daytrading"
+    - "economics"
+    - "business"
+    - "trading"
+    - "finance"
+    - "retirement"
+    - "robinhood"
+    - "futures"
+    - "bitcoin"
+    - "cryptotrading"
+    - "forex"
+    - "defi"
+  post_limit: 100
+   # Limit on the number of posts per subreddit
