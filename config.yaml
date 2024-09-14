@@ -26,4 +26,4 @@ reddit:
     - "cryptotrading"
     - "forex"
     - "defi"
-  post_limit: 100  # Limit on the number of posts per subreddit
+  post_limit: 100
