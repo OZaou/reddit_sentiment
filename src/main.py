@@ -1,4 +1,3 @@
-
 import yaml
 from sentiment_analyzer import BERTSentimentAnalyzer
 from reddit_parser import fetch_reddit_posts
