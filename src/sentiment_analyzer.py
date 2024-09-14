@@ -18,7 +18,6 @@ class BERTSentimentAnalyzer:
         logits = outputs.logits
         sentiment = torch.argmax(logits, dim=1).item()
 
-        # Sentiment mapping (0 = very negative, 4 = very positive)
         if sentiment == 0 or sentiment == 1:
             return 'negative'
         elif sentiment == 2:
